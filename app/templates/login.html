@@ -2,6 +2,7 @@
 
 {% block content %}
 	<h1>Sign in</h1>
+	<p>New user? <a href="{{ url_for('register') }}">Register</a></p>
 	<form action="" method="post">
 		{{ form.hidden_tag() }}
 		<p>
